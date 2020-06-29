@@ -8,12 +8,6 @@ from telethon import events, errors, functions, types
 from userbot import ALIVE_NAME, CUSTOM_PMPERMIT
 from userbot.utils import admin_cmd
 
-PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
-if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/Harsh-06-29"
-else:
-  WARN_PIC = PMPERMIT_PIC
-
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 
